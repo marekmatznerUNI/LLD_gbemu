@@ -10,9 +10,10 @@ RUN apt-get update && apt-get install -y \
     libsdl2-ttf-dev \
     check
 
-# Setup XDG_RUNTIME_DIR
+# Setup XServer
 ENV XDG_RUNTIME_DIR=/tmp/runtime-dir
 RUN mkdir -p $XDG_RUNTIME_DIR && chmod 0700 $XDG_RUNTIME_DIR
+ENV DISPLAY host.docker.internal:0.0
 
 # Set the working directory
 WORKDIR /LLD_gbemu
