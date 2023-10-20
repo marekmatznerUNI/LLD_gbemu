@@ -10,3 +10,6 @@ RUN apt-get update && apt-get install -y \
 
 # Set the working directory
 WORKDIR /LLD_gbemu
+
+# Run container indefinetly
+command: tail -f /dev/null
