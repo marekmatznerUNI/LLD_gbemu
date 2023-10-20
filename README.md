@@ -2,8 +2,8 @@
     
 ## Prerequisites
 
-- Docker Desktop (Ensure you have the latest version with "Dev Environments" feature)
-- Visual Studio Code (VSCode)
+- Docker Desktop
+- Visual Studio Code
 
 ## Setup and Running the Project
 
