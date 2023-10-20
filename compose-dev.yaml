@@ -9,3 +9,4 @@ services:
     working_dir: /LLD_gbemu
     volumes:
       - .:/LLD_gbemu
+    command: tail -f /dev/null
