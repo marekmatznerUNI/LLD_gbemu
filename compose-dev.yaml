@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  lld_gbemu:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lld_gbemu_container
+    working_dir: /LLD_gbemu
+    volumes:
+      - .:/LLD_gbemu
