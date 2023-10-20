@@ -14,7 +14,7 @@
 5. Docker Desktop will handle the setup and provide you with a fully configured environment.
 6. Once the environment is set up, you'll see an 'Open in VSCode' button. Click on it to open.
 
-## Setting up XServer on Windows (untested)
+## Setting up XServer on Windows
 
 If you intend to run GUI applications from within the Docker container, you'll need an X server running on your Windows host:
 
