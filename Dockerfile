@@ -6,8 +6,8 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     cmake \
     libsdl2-dev \
-    libcheck-dev \
-    libsdl2-ttf-dev
+    libsdl2-ttf-dev \
+    check \
 
 # Set the working directory
 WORKDIR /LLD_gbemu
