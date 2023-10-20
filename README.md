@@ -10,7 +10,7 @@
 1. Open Docker Desktop
 2. Navigate to 'Dev Environments'
 3. Click on the New Environment button.
-4. In the 'From Git Repository' section, enter the repository URL.
+4. In the 'Choose source' section, enter the repository URL.
 5. Docker Desktop will handle the setup and provide you with a fully configured environment.
 6. Once the environment is set up, you'll see an 'Open in VSCode' button. Click on it to open.
 
